@@ -51,8 +51,8 @@ It is recommended to use **Conda** to avoid version conflicts.
 
 ```bash
 # 1. Clone this repository
-git clone <your-repo-link>
-cd <your-repo-folder>
+git clone https://github.com/tienquocbao/Mecanum_Car_Hand_Controlling.git
+cd Mecanum_Car_Hand_Controlling
 
 # 2. Create the environment from the yaml file
 conda env create -f environments.yaml
@@ -70,8 +70,8 @@ conda activate robot_arm
 
 ### Step 1: Connect to the Car
 Once powered on, the ESP32 will broadcast a WiFi signal:
-* **SSID:** `FPTU_Can_Tho_Mecanum_Car_2`
-* **Password:** `fptucantho`
+* **SSID:** `wifi_name`
+* **Password:** `password`
 
 Connect your laptop to this WiFi network.
 
@@ -103,7 +103,8 @@ Use your **Right Hand**. The gesture determines the "Mode", and the hand positio
 | **3 Fingers (Middle, Ring, Pinky)** | **DIAGONAL** | Move hand to corners to drift diagonally (FL, FR, BL, BR). |
 
 ## 👨‍💻 Author
-**Student:** [Your Name]
+**Student:** [Tien Quoc Bao]
 **University:** FPT University Can Tho
 **Major:** Artificial Intelligence (AI)#
+
 
