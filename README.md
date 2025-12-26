@@ -19,6 +19,9 @@ This project implements a real-time, hand-gesture-controlled robot car featuring
 * **Smart Smoothing:** Implements a history buffer (counter-based filter) in Python to prevent jittery movements and ghost commands.
 * **AI Vision:** Optimized for performance using MediaPipe Hands (Lite model logic).
 
+### 🎥 Video Demo
+[Demo Link](https://drive.google.com/file/d/1zi9xEzxrtOBP-PK36ziJwcpSPLFUbvFv/view?usp=sharing)
+
 ## 📂 Project Structure
 
 * `control_new.py`: The main Python controller. It handles webcam input, hand gesture recognition, HUD rendering, smoothing logic, and sending UDP packets.
@@ -103,3 +106,4 @@ Use your **Right Hand**. The gesture determines the "Mode", and the hand positio
 **Student:** [Your Name]
 **University:** FPT University Can Tho
 **Major:** Artificial Intelligence (AI)#
+
