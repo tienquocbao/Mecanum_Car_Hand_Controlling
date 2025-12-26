@@ -53,8 +53,8 @@ Sử dụng **Anaconda** hoặc **Miniconda** để cài đặt môi trường t
 
 ```bash
 # 1. Clone dự án này về máy
-git clone <your-repo-link>
-cd <your-repo-folder>
+git clone https://github.com/tienquocbao/Mecanum_Car_Hand_Controlling.git
+cd Mecanum_Car_Hand_Controlling
 
 # 2. Tạo môi trường từ file .yaml
 conda env create -f environments.yaml
@@ -73,8 +73,8 @@ conda activate robot_arm
 
 ### Bước 1: Khởi động xe
 Sau khi cấp nguồn, ESP32 sẽ tự phát ra một mạng Wifi.
-* **SSID:** `FPTU_Can_Tho_Mecanum_Car_2`
-* **Password:** `fptucantho`
+* **SSID:** `tên wifi`
+* **Password:** `mật khẩu`
 
 ### Bước 2: Kết nối máy tính
 Sử dụng máy tính (laptop) kết nối vào mạng Wifi trên.
@@ -108,7 +108,8 @@ Giao diện HUD sẽ hiện lên. Đứng trước Webcam và đưa tay vào khu
 | **3 ngón (Giữa, Áp, Út)** | **ĐI CHÉO** | Đưa tay về 4 góc để đi chéo (Drift). |
 
 ## 👨‍💻 Tác giả
-**Sinh viên:** [Tên của bạn]
+**Sinh viên:** [Tiên Quốc Bảo]
 **Trường:** Đại học FPT Cần Thơ
 
 **Chuyên ngành:** Trí tuệ nhân tạo (AI)
+
