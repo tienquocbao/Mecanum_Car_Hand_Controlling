@@ -21,6 +21,9 @@ Giao diện điều khiển (HUD) được thiết kế theo phong cách Sci-Fi 
 * **Smoothing Algorithm:** Tích hợp bộ lọc nhiễu giúp xe di chuyển mượt mà, không bị giật cục.
 * **AI Vision:** Nhận diện bàn tay chính xác bằng Google MediaPipe (Model Lite).
 
+### 🎥 Video Demo
+[Demo Link](https://drive.google.com/file/d/1zi9xEzxrtOBP-PK36ziJwcpSPLFUbvFv/view?usp=sharing)
+
 ## 📂 Cấu trúc dự án
 
 * `control_new.py`: Mã nguồn Python chạy trên máy tính. Xử lý hình ảnh, vẽ HUD và gửi lệnh UDP.
@@ -107,4 +110,5 @@ Giao diện HUD sẽ hiện lên. Đứng trước Webcam và đưa tay vào khu
 ## 👨‍💻 Tác giả
 **Sinh viên:** [Tên của bạn]
 **Trường:** Đại học FPT Cần Thơ
+
 **Chuyên ngành:** Trí tuệ nhân tạo (AI)
